@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дэйскомп</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section id="header-section">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-container d-flex align-items-center justify-content-between">
+					<div class="search-input-block mr-3">
+						<div class="input-group">
+			                <input class="form-control border-end-0 border rounded-pill" type="text" placeholder="Поиск по сайту" id="search-input">
+			                <span class="input-group-append">
+			                    <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+			                        <img src="images/icons/search.svg">
+			                    </button>
+			                </span>
+			     		</div>
+					</div>
+					<div class="working-hours mr-3">
+						<div class="d-flex align-items-center">
+							<img src="images/icons/clock.svg" class="pr-2">
+							<span>График работы:  09:00 - 19:00 </span>
+						</div>
+					</div>
+					<div class="phone-block mr-3">
+						<div class="d-flex align-items-center">
+							<img src="images/icons/phone.svg" class="pr-2">
+							<span>+375 (163) 42 36 40</span>
+						</div>
+					</div>
+					<div class="call-btn">
+						<a href="#" type="button" data-toggle="modal" data-target="#callModal" class="green-btn d-block">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<div id="nav-icon">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+					<a href="index.html">
+						<img class="header-logo" src="images/logo.svg">
+					</a>
+					<div class="menu-block">
+						<ul class="nav-menu">
+							<li class="back-menu">
+								<div class="d-flex align-items-center position-relative">
+									<span class="menu-title">Клиника</span>
+									<span class="chevron chevron-down"></span>
+								</div>
+								<ul class="sub-menu">
+									<li class="d-none back">
+										<div class="d-flex align-items-center position-relative">
+											<span class="chevron chevron-left"></span>
+											<span class="sub-menu-title">Назад</span>
+										</div>
+									</li>
+									<li>
+										<a href="about.html">О центре</a>
+									</li>
+									<li>
+										<a href="">Лицензии</a>
+									</li>
+									<li>
+										<a href="reviews.html">Отзывы</a>
+									</li>
+									<li>
+										<a href="">Фотогалерея</a>
+									</li>
+								</ul>
+							</li>
+							<li class="back-menu">
+								<div class="d-flex align-items-center position-relative">
+									<span class="menu-title">
+										<a href="services.html">Услуги</a>
+									</span>
+									<span class="chevron chevron-down"></span>
+								</div>
+								<ul class="sub-menu">
+									<li class="d-none back">
+										<div class="d-flex align-items-center position-relative">
+											<span class="chevron chevron-left"></span>
+											<span class="sub-menu-title">Назад</span>
+										</div>
+									</li>
+									<li class="sub-menu-li back-sub-menu">
+										<div class="d-flex align-items-center justify-content-between position-relative">
+											<span class="sub-menu-title">
+												<a href="current-service.html">Гинекология</a>
+											</span>
+											<span class="chevron chevron-right"></span>
+										</div>
+										<ul class="second-sub-menu">
+											<li class="d-none sub-back">
+												<div class="d-flex align-items-center position-relative">
+													<span class="chevron chevron-left"></span>
+													<span class="sub-menu-title">Назад</span>
+												</div>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+										</ul>
+									</li>
+									<li class="sub-menu-li back-sub-menu">
+										<div class="d-flex align-items-center justify-content-between position-relative">
+											<span class="sub-menu-title">УЗИ</span>
+											<span class="chevron chevron-right"></span>
+										</div>
+										<ul class="second-sub-menu second-uzi-sub-menu">
+											<li class="d-none sub-back">
+												<div class="d-flex align-items-center position-relative">
+													<span class="chevron chevron-left"></span>
+													<span class="sub-menu-title">Назад</span>
+												</div>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">Стоматология</a>
+									</li>
+									<li>
+										<a href="">Лазерная эпиляция</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a class="menu-item" href="specialists.html">Специалисты</a>
+							</li>
+							<li>
+								<a class="menu-item" href="price.html">Цены</a>
+							</li>
+							<li>
+								<a class="menu-item" href="contact.html">Контакты</a>
+							</li>
+							<li class="d-mb-block">
+								<a href="#" type="button" data-toggle="modal" data-target="#requestModal">
+									Запись на прием
+								</a>
+							</li>
+							<li class="d-mb-block">
+								<a href="#" type="button" data-toggle="modal" data-target="#callModal" class="green-btn d-block menu-btn">
+									Вам перезвонить?
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="search-input-block" id="search-input-block">
+						<div class="input-group">
+			                <input class="form-control border-end-0 border rounded-pill" type="text" placeholder="Поиск по сайту" id="search-sm-input">
+			                <span class="input-group-append">
+			                    <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+			                        <img src="images/icons/search.svg">
+			                    </button>
+			                </span>
+			     		</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+	<section id="main-slider">
+		<div class="home-slider">
+			<div class="slider-item">
+				<img src="images/header-img.jpg">
+				<div class="container">
+					<div class="slider-info">
+						<h2>УЛЬТРАЗВУКОВАЯ ДИАГНОСТИКА</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<a href="#" type="button" data-toggle="modal" data-target="#requestModal" class="green-btn">Запись на прием</a>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item">
+				<img src="images/header-img.jpg">
+				<div class="container">
+					<div class="slider-info">
+						<h2>УЛЬТРАЗВУКОВАЯ ДИАГНОСТИКА</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<a href="#" type="button" data-toggle="modal" data-target="#requestModal" class="green-btn">Запись на прием</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div id="slider-dots"></div>
+		</div>
+	</section>
+	<section id="services-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-12">
+					<h2 class="section-title">Наши услуги</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6 mb-2">
+					<div class="service-card card">
+						<img src="images/services/service-1.jpg">
+						<div class="service-info">
+							<h3 class="service-title">Гинекология</h3>
+							<div class="green-line"></div>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 mb-2">
+					<div class="service-card card">
+						<img src="images/services/service-2.jpg">
+						<div class="service-info">
+							<h3 class="service-title">Узи</h3>
+							<div class="green-line"></div>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 mb-2">
+					<div class="service-card card">
+						<img src="images/services/service-3.jpg">
+						<div class="service-info">
+							<h3 class="service-title">Стоматология</h3>
+							<div class="green-line"></div>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 mb-2">
+					<div class="service-card card">
+						<img src="images/services/service-4.jpg">
+						<div class="service-info">
+							<h3 class="service-title">Эпиляция</h3>
+							<div class="green-line"></div>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="our-doctors-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-12">
+					<h2 class="section-title mb-5">Наши врачи</h2>
+					<p class="text-center">В медицинском центре Дэйскомп работают <br>квалифицированные специалисты</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="doctors-slider">
+						<div class="doctor-card">
+							<img src="images/doctors/doctor-gil.jpg">
+							<div class="doctor-info">
+								<p class="font-weight-bold">Гиль Александр</p>
+								<p>Врач УЗИ, гинеколог</p>
+							</div>
+						</div>
+						<div class="doctor-card">
+							<img src="images/doctors/doctor-olga.jpg">
+							<div class="doctor-info">
+								<p class="font-weight-bold">Конович Ольга</p>
+								<p>Врач УЗИ, гинеколог</p>
+							</div>
+						</div>
+						<div class="doctor-card">
+							<img src="images/doctors/doctor-gil.jpg">
+							<div class="doctor-info">
+								<p class="font-weight-bold">Гиль Александр</p>
+								<p>Врач УЗИ, гинеколог</p>
+							</div>
+						</div>
+						<div class="doctor-card">
+							<img src="images/doctors/doctor-olga.jpg">
+							<div class="doctor-info">
+								<p class="font-weight-bold">Конович Ольга</p>
+								<p>Врач УЗИ, гинеколог</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="help-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="section-title mb-5">Мы всегда готовы Вам помочь!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-1.svg">
+						</div>
+						<p>Высокие стандарты оказания медицинских услуг</p>
+					</div>
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-2.svg">
+						</div>
+						<p>Комплексный подход к лечению и профилактике заболеваний</p>
+					</div>
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-3.svg">
+						</div>
+						<p>Новейшие медицинские технологии</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-4.svg">
+						</div>
+						<p>Квалифицированные и опытные медицинские специалисты</p>
+					</div>
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-5.svg">
+						</div>
+						<p>Комфорт и высокий уровень сервиса</p>
+					</div>
+					<div class="help-block">
+						<div class="help-block-img">
+							<img src="images/help/help-6.svg">
+						</div>
+						<p>Самое современное медицинское оборудование</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 pr-sm-5 pr-3">
+					<h2 class="section-title ml-0 mb-5">Медицинский центр <br> Дэйскомп в Барановиче</h2>
+					<div class="about-img d-mb-block my-5">
+						<img src="images/building.jpg">
+					</div>
+					<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dum <br><br> text of the printing and and and typesetting istry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dum <br><br> text of the printing and and and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dum text of the printing and andsetting industry.</p>
+				</div>
+				<div class="col-lg-6">
+					<div class="about-img d-mb-none">
+						<img src="images/building.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="latest-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="section-title mb-5">Мы всегда готовы Вам помочь!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<a href="#" class="latest-card card">
+						<img src="images/latest/latest-1.jpg">
+						<div class="latest-info">
+							<h3 class="latest-title">Публикация 1</h3>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<div class="red-line"></div>
+							<p class="latest-date">10 апреля, 2021</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<a href="#" class="latest-card card">
+						<img src="images/latest/latest-1.jpg">
+						<div class="latest-info">
+							<h3 class="latest-title">Публикация 1</h3>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<div class="red-line"></div>
+							<p class="latest-date">10 апреля, 2021</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4">
+					<a href="#" class="latest-card card">
+						<img src="images/latest/latest-1.jpg">
+						<div class="latest-info">
+							<h3 class="latest-title">Публикация 1</h3>
+							<p>Lorem Ipsum is simply dum text of the printing and and and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<div class="red-line"></div>
+							<p class="latest-date">10 апреля, 2021</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-lg-12">
+					<div class="d-flex justify-content-center">
+						<a href="#" class="green-btn">Все публикации</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="review-section">
+		<div class="container position-relative">
+			<img src="images/review/quotation-right.svg" class="quotation-right">
+			<img src="images/review/quotation-left.svg" class="quotation-left">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="section-title mb-5">Отзывы посетителей</h2>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-6">
+					<div class="review-slider">
+						<div class="review-item">
+							<img src="images/review/review-1.jpg" class="review-img">
+							<div class="review-info">
+								<p>Lorem Ipsum has been the text industry's standard dummytext ever.Ipsum has been the text ever.Ipsum has been the</p>
+								<p class="review-name">Мария, 24 года</p>
+							</div>
+						</div>
+						<div class="review-item">
+							<img src="images/review/review-1.jpg" class="review-img">
+							<div class="review-info">
+								<p>Lorem Ipsum has been the text industry's standard dummytext ever.Ipsum has been the text ever.Ipsum has been the</p>
+								<p class="review-name">Мария, 24 года</p>
+							</div>
+						</div>
+						<div class="review-item">
+							<img src="images/review/review-1.jpg" class="review-img">
+							<div class="review-info">
+								<p>Lorem Ipsum has been the text industry's standard dummytext ever.Ipsum has been the text ever.Ipsum has been the</p>
+								<p class="review-name">Мария, 24 года</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="section-title mb-5">Дэйскомп на карте</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6" id="map">
+					<div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/21015/baranavichy/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Baranavichy</a><a href="https://yandex.com/maps/21015/baranavichy/?feedback=object%2Fselect&ll=26.014007%2C53.124782&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Yandex.Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCU4j4xKhA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+				</div>
+				<div class="col-lg-6 offset-lg-6 offset-0">
+					<div class="contact-info-block">
+						<div class="contact-info">
+							<div class="d-flex mb-3">
+								<img src="images/icons/location.svg" class="mr-3">
+								<p>Address address address</p>
+							</div>
+							<div class="d-flex mb-3">
+								<img src="images/icons/mail.svg" class="mr-3">
+								<a href="mailto:info@uzi-baranovichi.by">info@uzi-baranovichi.by</a>
+							</div>
+							<div class="d-flex">
+								<img src="images/icons/phone.svg" class="mr-3">
+								<a href="tel:+375163423640">+375 (163) 42 36 40 </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact-form">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-4">
+					<div class="contact-form">
+						<h2 class="section-title mb-5 ml-0">Есть вопрос? Напишите нам!</h2>
+						<form class="contact-send-form">
+							<div class="row">
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="email" name="email" class="with-effect" type="email" placeholder="E-mail">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                        <div class="position-relative textarea-input input-effect mb-0 pr-0">
+			                            <textarea name="message" class="with-effect" id="message" rows="4" placeholder="Напишите Ваш вопрос"></textarea>
+			                            <span class="focus-border"></span>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 danger-message">
+			                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+			                    </div>
+			                    <div class="col-lg-12">
+			                        <div class="position-relative send-form" data-text="Send">
+			                        	<button type="submit" class="btn green-btn" id="contact__btn">
+				                        	Задать вопрос
+				                        </button>
+			                        </div>
+			                    </div>
+			                </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer-blocks">
+						<div class="footer-block">
+							<img class="footer-logo" src="images/logo.svg">
+							<p>Юридическая информацияо <br> клинике</p>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Клиника</h6>
+							<a href="" class="footer-links">О центре</a>
+							<a href="" class="footer-links">Лицензии</a>
+							<a href="" class="footer-links">Отзывы</a>
+							<a href="" class="footer-links">Фотогалерея</a>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Услуги</h6>
+							<a href="" class="footer-links">Гинекология</a>
+							<a href="" class="footer-links">УЗИ</a>
+							<a href="" class="footer-links">Стоматология</a>
+							<a href="" class="footer-links">Лазерная эпиляция</a>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Контакты</h6>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/phone.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Телефон</p>
+									<a href="tel:+375163423640">+375 (163) 42 36 40</a>
+								</div>
+							</div>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/mail.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Электронная почта</p>
+									<a href="mailto:info@uzi-baranovichi.by">info@uzi-baranovichi.by</a>
+								</div>
+							</div>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/location.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Адрес</p>
+									<a href="tel:+375163423640">Address address address</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer-block justify-content-start">
+							<h6 class="navigation">Дэйскомп в соцсетях</h6>
+							<div class="d-flex align-items-center mt-3">
+								<div class="social-link">
+									<a href="#" target="_blank" class="social social-fb">
+										<img src="images/icons/facebook.svg">
+									</a>
+									<a href="#" target="_blank" class="social social-insta">
+										<img src="images/icons/instagram.svg">
+									</a>
+									<a href="#" target="_blank" class="social social-youtube">
+										<img src="images/icons/youtube.svg">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row copyright">
+				<div class="col-lg-8">
+					<p class="font-weight-bold">© 2021 «Дэйскомп» медицинский центр</p>
+					<p class="font-weight-bold mt-4">
+						<span>Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных, в соответствии с Политикой конфиденциальности.</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a href="" class="fancybox" id="popup_toggle">
+		<div class="circlephone"></div>
+		<div class="circle-fill"></div>
+		<div class="img-circle">
+			<div class="img-circleblock"></div>
+		</div>
+	</a>
+	<a href="" class="fancybox ikonka">
+		<div class="circlephone"></div>
+		<div class="circle-fill"></div>
+		<div class="img-circle">
+			<div class="img-circleblock"></div>
+		</div>
+	</a>
+
+
+	<!-- Modals -->
+
+	<!-- call back modal -->
+	<div class="modal fade bd-example-modal-lg" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body p-0 d-flex">
+	        <div>
+	        	<img src="images/call-back-modal-img.png">
+	        </div>
+        	<div class="modal-form">
+				<h2 class="section-title font-weight-bold">Обратный звонок</h2>
+				<p class="text-center my-3">Оставтье свой номер и <br> мы перезвоним Вам!</p>
+				<form class="contact-send-form">
+					<div class="row">
+	                    <div class="col-lg-12">
+	                      <div class="position-relative input-effect">
+	                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12">
+	                      <div class="position-relative input-effect">
+	                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12 danger-message">
+	                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative send-form" data-text="Send">
+	                        	<button type="submit" class="btn green-btn" id="contact__btn">
+		                        	Жду звонка!
+		                        </button>
+	                        </div>
+	                    </div>
+	                </div>
+				</form>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- request modal -->
+	<div class="modal fade bd-example-modal-lg" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body p-0 d-flex">
+        	<div class="modal-form">
+				<h2 class="section-title font-weight-bold">Запись на прием</h2>
+				<p class="text-center my-3">Оставтье свой номер и <br> мы перезвоним Вам!</p>
+				<form class="request-send-form mt-5">
+					<div class="row">
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <select class="with-effect">
+	                          	<option disabled="" selected="">Направление</option>
+	                          	<option>Гинекология</option>
+	                          	<option>УЗИ</option>
+	                          	<option>Стоматология</option>
+	                          	<option>Лазерная эпиляция</option>
+	                          </select>
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <select class="with-effect">
+	                          	<option disabled="" selected="">Специалист</option>	
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          </select>
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative textarea-input input-effect mb-0 pr-0">
+	                            <textarea name="message" class="with-effect" id="message" rows="3" placeholder="Сообщение"></textarea>
+	                            <span class="focus-border"></span>
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-12 danger-message">
+	                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative send-form" data-text="Send">
+	                        	<button type="submit" class="btn green-btn" id="contact__btn">
+		                        	Жду звонка!
+		                        </button>
+	                        </div>
+	                    </div>
+	                </div>
+				</form>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- thank you modal -->
+	<div class="modal fade bd-example-modal-lg" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="callModalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body p-0 d-flex">
+	        <div>
+	        	<img src="images/call-back-modal-img.png">
+	        </div>
+        	<div class="thankyou-container d-flex flex-column align-items-center justify-content-center">
+        		<img class="check-icon" src="images/icons/check.svg">
+        		<h5 class="font-weight-bold">Спасибо!</h5>
+        		<p class="text-center mb-5">Заявка отправлена. <br> Мы свяжемся с Вами в ближайшее время!</p>
+        		<a href="index.html" class="green-btn d-block">Перейти на сайт</a>
+        	</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		
+		$(window).on('load', function() {
+	        $('#thankyouModal').modal('show');
+	    });
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дэйскомп</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section id="header-section">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-container d-flex align-items-center justify-content-between">
+					<div class="search-input-block mr-3">
+						<div class="input-group">
+			                <input class="form-control border-end-0 border rounded-pill" type="text" placeholder="Поиск по сайту" id="search-input">
+			                <span class="input-group-append">
+			                    <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+			                        <img src="images/icons/search.svg">
+			                    </button>
+			                </span>
+			     		</div>
+					</div>
+					<div class="working-hours mr-3">
+						<div class="d-flex align-items-center">
+							<img src="images/icons/clock.svg" class="pr-2">
+							<span>График работы:  09:00 - 19:00 </span>
+						</div>
+					</div>
+					<div class="phone-block mr-3">
+						<div class="d-flex align-items-center">
+							<img src="images/icons/phone.svg" class="pr-2">
+							<span>+375 (163) 42 36 40</span>
+						</div>
+					</div>
+					<div class="call-btn">
+						<a href="#" type="button" data-toggle="modal" data-target="#callModal" class="green-btn d-block">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<div id="nav-icon">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+					<a href="index.html">
+						<img class="header-logo" src="images/logo.svg">
+					</a>
+					<div class="menu-block">
+						<ul class="nav-menu">
+							<li class="back-menu">
+								<div class="d-flex align-items-center position-relative">
+									<span class="menu-title">Клиника</span>
+									<span class="chevron chevron-down"></span>
+								</div>
+								<ul class="sub-menu">
+									<li class="d-none back">
+										<div class="d-flex align-items-center position-relative">
+											<span class="chevron chevron-left"></span>
+											<span class="sub-menu-title">Назад</span>
+										</div>
+									</li>
+									<li>
+										<a href="about.html">О центре</a>
+									</li>
+									<li>
+										<a href="">Лицензии</a>
+									</li>
+									<li>
+										<a href="reviews.html">Отзывы</a>
+									</li>
+									<li>
+										<a href="">Фотогалерея</a>
+									</li>
+								</ul>
+							</li>
+							<li class="back-menu">
+								<div class="d-flex align-items-center position-relative">
+									<span class="menu-title">
+										<a href="services.html">Услуги</a>
+									</span>
+									<span class="chevron chevron-down"></span>
+								</div>
+								<ul class="sub-menu">
+									<li class="d-none back">
+										<div class="d-flex align-items-center position-relative">
+											<span class="chevron chevron-left"></span>
+											<span class="sub-menu-title">Назад</span>
+										</div>
+									</li>
+									<li class="sub-menu-li back-sub-menu">
+										<div class="d-flex align-items-center justify-content-between position-relative">
+											<span class="sub-menu-title">
+												<a href="current-service.html">Гинекология</a>
+											</span>
+											<span class="chevron chevron-right"></span>
+										</div>
+										<ul class="second-sub-menu">
+											<li class="d-none sub-back">
+												<div class="d-flex align-items-center position-relative">
+													<span class="chevron chevron-left"></span>
+													<span class="sub-menu-title">Назад</span>
+												</div>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+											<li>
+												<a href="service-item.html">Услуга 1</a>
+											</li>
+										</ul>
+									</li>
+									<li class="sub-menu-li back-sub-menu">
+										<div class="d-flex align-items-center justify-content-between position-relative">
+											<span class="sub-menu-title">УЗИ</span>
+											<span class="chevron chevron-right"></span>
+										</div>
+										<ul class="second-sub-menu second-uzi-sub-menu">
+											<li class="d-none sub-back">
+												<div class="d-flex align-items-center position-relative">
+													<span class="chevron chevron-left"></span>
+													<span class="sub-menu-title">Назад</span>
+												</div>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+											<li>
+												<a href="">Услуга 1</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="">Стоматология</a>
+									</li>
+									<li>
+										<a href="">Лазерная эпиляция</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a class="menu-item" href="specialists.html">Специалисты</a>
+							</li>
+							<li>
+								<a class="menu-item" href="price.html">Цены</a>
+							</li>
+							<li>
+								<a class="menu-item" href="contact.html">Контакты</a>
+							</li>
+							<li class="d-mb-block">
+								<a href="#" type="button" data-toggle="modal" data-target="#requestModal">
+									Запись на прием
+								</a>
+							</li>
+							<li class="d-mb-block">
+								<a href="#" type="button" data-toggle="modal" data-target="#callModal" class="green-btn d-block menu-btn">
+									Вам перезвонить?
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="search-input-block" id="search-input-block">
+						<div class="input-group">
+			                <input class="form-control border-end-0 border rounded-pill" type="text" placeholder="Поиск по сайту" id="search-sm-input">
+			                <span class="input-group-append">
+			                    <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+			                        <img src="images/icons/search.svg">
+			                    </button>
+			                </span>
+			     		</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+	<section id="price-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breadcrumb">
+						<a href="index.html">Главная</a> 
+						<span class="px-2 text-red"> / </span>
+						<p>Специалисты</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 d-lg-block d-none">
+					<div class="left-menu">
+						<ul>
+							<li class="has-submenu">
+								<div class="with-chevron d-flex align-items-center justify-content-between position-relative">
+									<span class="sub-menu-title">
+										<a href="service-item.html">Гинекология</a>
+									</span>
+									<span class="chevron chevron-right"></span>
+								</div>
+								<ul class="left-sub-menu">
+									<li>
+										<a href="">Прием у гинеколога</a>
+									</li>
+									<li>
+										<a href="">Кольпоскопия</a>
+									</li>
+									<li>
+										<a href="">Медаборт</a>
+									</li>
+									<li>
+										<a href="">Маточная контрацепция</a>
+									</li>
+								</ul>
+							</li>
+							<li class="has-submenu">
+								<div class="with-chevron d-flex align-items-center justify-content-between position-relative">
+									<span class="sub-menu-title">УЗИ</span>
+									<span class="chevron chevron-right"></span>
+								</div>
+								<ul class="left-sub-menu">
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+								</ul>
+							</li>
+							<li class="has-submenu">
+								<div class="with-chevron d-flex align-items-center justify-content-between position-relative">
+									<span class="sub-menu-title">Стоматология</span>
+									<span class="chevron chevron-right"></span>
+								</div>
+								<ul class="left-sub-menu">								
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+									<li>
+										<a href="">Услуга 1</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="" class="">Лазерная эпиляция</a>
+							</li>
+							<li>
+								<a href="" class="">Цены</a>
+							</li>
+							<li>
+								<a href="" class="">Акции</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mt-5 left-btn">
+						<a href="#" type="button" data-toggle="modal" data-target="#requestModal" class="green-btn d-block text-center text-white">
+							Запись на прием
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="container">
+								<div class="row mb-5">
+									<div class="col-lg-12">
+										<h1 class="section-title ml-0">Наши специалисты</h1>
+									</div>
+								</div>
+								<div class="row mb-3">
+									<div class="col-lg-12">
+										<h5 class="section-title ml-0">Стоматология</h5>
+									</div>
+								</div>
+								<div class="row mb-5">
+									<div class="col-lg-12">
+										<div class="doctors-slider">
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-gil.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Гиль Александр</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-olga.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Конович Ольга</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-gil.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Гиль Александр</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-olga.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Конович Ольга</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mb-3">
+									<div class="col-lg-12">
+										<h5 class="section-title ml-0">УЗИ диагностика</h5>
+									</div>
+								</div>
+								<div class="row mb-5">
+									<div class="col-lg-12">
+										<div class="all-slider uzi-slider">
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-olga.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Конович Ольга</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-gil.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Гиль Александр</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-olga.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Конович Ольга</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+											<div class="doctor-card specialist-card">
+												<a href="">
+													<img src="images/doctors/doctor-gil.jpg">
+													<div class="doctor-info">
+														<p class="font-weight-bold text-red">Гиль Александр</p>
+														<p>Врач УЗИ, гинеколог</p>
+														<p class="mt-4">Врач УЗИ, гинеколог Врач УЗИ, гинекологВрач УЗИ, гинеколог</p>
+													</div>
+													</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact-form">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-4">
+					<div class="contact-form">
+						<h2 class="section-title mb-5 ml-0">Есть вопрос? Напишите нам!</h2>
+						<form class="contact-send-form">
+							<div class="row">
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                      <div class="position-relative input-effect">
+			                          <input id="email" name="email" class="with-effect" type="email" placeholder="E-mail">
+			                          <span class="focus-border"></span>
+			                      </div>
+			                    </div>
+			                    <div class="col-lg-12">
+			                        <div class="position-relative textarea-input input-effect mb-0 pr-0">
+			                            <textarea name="message" class="with-effect" id="message" rows="4" placeholder="Напишите Ваш вопрос"></textarea>
+			                            <span class="focus-border"></span>
+			                        </div>
+			                    </div>
+			                    <div class="col-lg-12 danger-message">
+			                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+			                    </div>
+			                    <div class="col-lg-12">
+			                        <div class="position-relative send-form" data-text="Send">
+			                        	<button type="submit" class="btn green-btn" id="contact__btn">
+				                        	Задать вопрос
+				                        </button>
+			                        </div>
+			                    </div>
+			                </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer-blocks">
+						<div class="footer-block">
+							<img class="footer-logo" src="images/logo.svg">
+							<p>Юридическая информацияо <br> клинике</p>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Клиника</h6>
+							<a href="" class="footer-links">О центре</a>
+							<a href="" class="footer-links">Лицензии</a>
+							<a href="" class="footer-links">Отзывы</a>
+							<a href="" class="footer-links">Фотогалерея</a>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Услуги</h6>
+							<a href="" class="footer-links">Гинекология</a>
+							<a href="" class="footer-links">УЗИ</a>
+							<a href="" class="footer-links">Стоматология</a>
+							<a href="" class="footer-links">Лазерная эпиляция</a>
+						</div>
+						<div class="footer-block">
+							<h6 class="navigation">Контакты</h6>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/phone.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Телефон</p>
+									<a href="tel:+375163423640">+375 (163) 42 36 40</a>
+								</div>
+							</div>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/mail.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Электронная почта</p>
+									<a href="mailto:info@uzi-baranovichi.by">info@uzi-baranovichi.by</a>
+								</div>
+							</div>
+							<div class="d-flex align-items-center">
+								<img class="social-icons" src="images/icons/location.svg">
+								<div class="d-flex flex-column ml-2">
+									<p class="font-weight-bold">Адрес</p>
+									<a href="tel:+375163423640">Address address address</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer-block justify-content-start">
+							<h6 class="navigation">Дэйскомп в соцсетях</h6>
+							<div class="d-flex align-items-center mt-3">
+								<div class="social-link">
+									<a href="#" target="_blank" class="social social-fb">
+										<img src="images/icons/facebook.svg">
+									</a>
+									<a href="#" target="_blank" class="social social-insta">
+										<img src="images/icons/instagram.svg">
+									</a>
+									<a href="#" target="_blank" class="social social-youtube">
+										<img src="images/icons/youtube.svg">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row copyright">
+				<div class="col-lg-8">
+					<p class="font-weight-bold">© 2021 «Дэйскомп» медицинский центр</p>
+					<p class="font-weight-bold mt-4">
+						<span>Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных, в соответствии с Политикой конфиденциальности.</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a href="" class="fancybox" id="popup_toggle">
+		<div class="circlephone"></div>
+		<div class="circle-fill"></div>
+		<div class="img-circle">
+			<div class="img-circleblock"></div>
+		</div>
+	</a>
+	<a href="" class="fancybox ikonka">
+		<div class="circlephone"></div>
+		<div class="circle-fill"></div>
+		<div class="img-circle">
+			<div class="img-circleblock"></div>
+		</div>
+	</a>
+
+
+	<!-- Modals -->
+
+	<!-- call back modal -->
+	<div class="modal fade bd-example-modal-lg" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body p-0 d-flex">
+	        <div>
+	        	<img src="images/call-back-modal-img.png">
+	        </div>
+        	<div class="modal-form">
+				<h2 class="section-title font-weight-bold">Обратный звонок</h2>
+				<p class="text-center my-3">Оставтье свой номер и <br> мы перезвоним Вам!</p>
+				<form class="contact-send-form">
+					<div class="row">
+	                    <div class="col-lg-12">
+	                      <div class="position-relative input-effect">
+	                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12">
+	                      <div class="position-relative input-effect">
+	                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12 danger-message">
+	                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative send-form" data-text="Send">
+	                        	<button type="submit" class="btn green-btn" id="contact__btn">
+		                        	Жду звонка!
+		                        </button>
+	                        </div>
+	                    </div>
+	                </div>
+				</form>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- request modal -->
+	<div class="modal fade bd-example-modal-lg" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body p-0 d-flex">
+        	<div class="modal-form">
+				<h2 class="section-title font-weight-bold">Запись на прием</h2>
+				<p class="text-center my-3">Оставтье свой номер и <br> мы перезвоним Вам!</p>
+				<form class="request-send-form mt-5">
+					<div class="row">
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <select class="with-effect">
+	                          	<option disabled="" selected="">Направление</option>
+	                          	<option>Гинекология</option>
+	                          	<option>УЗИ</option>
+	                          	<option>Стоматология</option>
+	                          	<option>Лазерная эпиляция</option>
+	                          </select>
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <select class="with-effect">
+	                          	<option disabled="" selected="">Специалист</option>	
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          	<option>Имя фамилия</option>
+	                          </select>
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <input id="name" name="name" class="with-effect" type="text" placeholder="Имя">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                      <div class="position-relative input-effect">
+	                          <input id="phone" name="phone" class="with-effect" type="tel" placeholder="Телефон">
+	                          <span class="focus-border"></span>
+	                      </div>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative textarea-input input-effect mb-0 pr-0">
+	                            <textarea name="message" class="with-effect" id="message" rows="3" placeholder="Сообщение"></textarea>
+	                            <span class="focus-border"></span>
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-12 danger-message">
+	                    	<p>*Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+	                    </div>
+	                    <div class="col-lg-12">
+	                        <div class="position-relative send-form" data-text="Send">
+	                        	<button type="submit" class="btn green-btn" id="contact__btn">
+		                        	Жду звонка!
+		                        </button>
+	                        </div>
+	                    </div>
+	                </div>
+				</form>
+			</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/specialists-all.js"></script>
+</body>
+</html>
